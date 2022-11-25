@@ -19,10 +19,10 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\pjproject\pjsip-apps\src\swig\csharp\pjsua2_wrap.h" />
+    <ClInclude Include="$(PJPROJECT_SRC_PATH)\pjsip-apps\src\swig\csharp\pjsua2_wrap.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\pjproject\pjsip-apps\src\swig\csharp\pjsua2_wrap.cpp" />
+    <ClCompile Include="$(PJPROJECT_SRC_PATH)\pjsip-apps\src\swig\csharp\pjsua2_wrap.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>

@@ -15,13 +15,21 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\pjproject\pjsip-apps\src\swig\csharp\pjsua2_wrap.h">
+    <ClInclude Include="$(PJPROJECT_SRC_PATH)\pjsip-apps\src\swig\csharp\pjsua2_wrap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\pjproject\pjsip-apps\src\swig\csharp\pjsua2_wrap.cpp">
+    <ClCompile Include="$(PJPROJECT_SRC_PATH)\pjsip-apps\src\swig\csharp\pjsua2_wrap.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resource.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
   </ItemGroup>
 </Project>
